@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.75f1 (26349cd2a5c8) revision 2503836'; Using compiler version '193933523'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANDRES FERMIN" at "2026-08-10T13:17:24.7385501Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 28563 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANDRES FERMIN" at "2026-08-21T03:32:20.6566713Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-08-10T13:17:24Z
+Date: 2026-08-21T03:32:20Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.75f1\Editor\Unity.exe
@@ -15,11 +15,11 @@ C:\Program Files\Unity\Hub\Editor\6000.0.75f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
+C:/Adso2026/EJERCICIO_PREGUNTAS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59896
+64301
 -licensingIpc
 LicenseClient-ANDRES FERMIN
 -job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-ANDRES FERMIN
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
-C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
+Successfully changed project path to: C:/Adso2026/EJERCICIO_PREGUNTAS
+C:/Adso2026/EJERCICIO_PREGUNTAS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -67,12 +67,12 @@ C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18152]  Target information:
+Player connection [15452]  Target information:
 
-Player connection [18152]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3702069102 [EditorId] 3702069102 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1JCDATF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15452]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2076098071 [EditorId] 2076098071 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1JCDATF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18152] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18152] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15452] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,11 +84,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 201.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS/Assets
+[Subsystems] Discovering subsystems at path C:/Adso2026/EJERCICIO_PREGUNTAS/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -100,7 +100,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -108,14 +108,14 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              8a742361078e42919fecd2f3e3da390b
-  Correlation Id:          04c9ff0d319331033c2763cb9dcd7557
-  External correlation Id: 7162815206159758209
+  Session Id:              be8f9e86c112479b8e754b95dc6046ad
+  Correlation Id:          a42457736cd7650dc115ae395e03aba9
+  External correlation Id: 8196262392652825620
   Machine Id:              gYelaCSI6isL+YwUnDGnPx+zsCc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ANDRES FERMIN" (connect: 0.00s, validation: 0.00s, handshake: 1.66s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANDRES FERMIN-notifications" at "2026-08-10T13:17:26.4061978Z"
-[Licensing::Module] Licensing Background thread has ended after 1.67s
-[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ANDRES FERMIN" (connect: 0.00s, validation: 0.00s, handshake: 1.89s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANDRES FERMIN-notifications" at "2026-08-21T03:32:22.5535445Z"
+[Licensing::Module] Licensing Background thread has ended after 1.90s
+[Licensing::Module] Licensing is initialized (took 0.68s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674201656207-UnityPersXXXX
@@ -123,10 +123,10 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.287048 seconds.
-- Loaded All Assemblies, in  0.936 seconds
+Registered in 0.688147 seconds.
+- Loaded All Assemblies, in  1.321 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 371 ms
+Android Extension - Scanning For ADB Devices 419 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -134,35 +134,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.793 seconds
-Domain Reload Profiling: 1724ms
-	BeginReloadAssembly (298ms)
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 2176ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (346ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (294ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (760ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (182ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (793ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (860ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (747ms)
+		SetupLoadedEditorAssemblies (802ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (475ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			InitializePlatformSupportModulesInManaged (518ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,162 +172,65 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.628 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.893 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.676 seconds
-Domain Reload Profiling: 2298ms
+Domain Reload Profiling: 1564ms
 	BeginReloadAssembly (226ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (44ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (45ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (1289ms)
-		LoadAssemblies (1157ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (410ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (184ms)
-			BuildScriptInfoCaches (43ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (676ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (193ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (677ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (545ms)
+		SetupLoadedEditorAssemblies (541ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4138 unused Assets / (1.1 MB). Loaded Objects now: 4619.
-Memory consumption went from 84.1 MB to 83.0 MB.
-Total: 6.907200 ms (FindLiveObjects: 0.622900 ms CreateObjectMapping: 0.501200 ms MarkObjects: 4.601700 ms  DeleteObjects: 1.178900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3438.093737 seconds.
-  path: Assets/figma preguntas/Pantalla 1
-  artifactKey: Guid(08ce4d0d0bf3b53429fac4e1a070f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1 using Guid(08ce4d0d0bf3b53429fac4e1a070f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '423a77752c698a19f080cb83abbee4cc') in 0.0054631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/figma preguntas/Pantalla 1/CIRCULO.png
-  artifactKey: Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1/CIRCULO.png using Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e30fc0571eb9254e66a16094a54a90a') in 0.0593514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.660215 seconds.
-  path: Assets/figma preguntas/Pantalla 1/LOGO.png
-  artifactKey: Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1/LOGO.png using Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737a1a5f40641dff155fc81f201ce5d3') in 0.065345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.826402 seconds.
-  path: Assets/figma preguntas/Pantalla 2/BOTON 1.png
-  artifactKey: Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/BOTON 1.png using Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e2750f648c2f9cce62535b322ce9178') in 0.0064813 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.441695 seconds.
-  path: Assets/figma preguntas/Pantalla 2/TITULO.png
-  artifactKey: Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/TITULO.png using Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9df250d98bf68e81fcd6a4a3b468404') in 0.0076506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.623081 seconds.
-  path: Assets/figma preguntas/Pantalla 2/TITULO.png
-  artifactKey: Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/TITULO.png using Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcc03d5494557e70b8dfb2ce41139de2') in 0.0156232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.041205 seconds.
-  path: Assets/figma preguntas/Pantalla 3/ATRAS.png
-  artifactKey: Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/ATRAS.png using Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d5ba2e15bde433f191fb352e42638e') in 0.0062864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.749818 seconds.
-  path: Assets/figma preguntas/Pantalla 3/ATRAS.png
-  artifactKey: Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/ATRAS.png using Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a0edc92480da3bbfb5ed5f37e829ee3') in 0.0182158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.375312 seconds.
-  path: Assets/figma preguntas/Pantalla 4
-  artifactKey: Guid(e7a58477d712a60428c89de72d24699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4 using Guid(e7a58477d712a60428c89de72d24699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a589c3864221304e8038a5854d824a') in 0.0010754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.536497 seconds.
-  path: Assets/figma preguntas/Pantalla 4/CALIFACION.png
-  artifactKey: Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/CALIFACION.png using Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3633deb7a4d49bc493dfe3b51bd1a653') in 0.0066353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.786658 seconds.
-  path: Assets/figma preguntas/Pantalla 4/PUNTUACION.png
-  artifactKey: Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/PUNTUACION.png using Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c57334e85b17c97a09e6cbf08650f61') in 0.0067668 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.762054 seconds.
-  path: Assets/figma preguntas/Pantalla 4/PUNTUACION.png
-  artifactKey: Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/PUNTUACION.png using Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56068d74e1919d470211d18e5e3df931') in 0.0143336 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 4140 unused Assets / (1.1 MB). Loaded Objects now: 4636.
+Memory consumption went from 85.6 MB to 84.4 MB.
+Total: 8.036700 ms (FindLiveObjects: 0.443400 ms CreateObjectMapping: 0.289300 ms MarkObjects: 5.573700 ms  DeleteObjects: 1.727900 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.983 seconds
-Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -338,400 +241,557 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.790 seconds
-Domain Reload Profiling: 1767ms
-	BeginReloadAssembly (311ms)
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (241ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (544ms)
-		LoadAssemblies (467ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (401ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (215ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (790ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (616ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (621ms)
+		SetupLoadedEditorAssemblies (479ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4137 unused Assets / (1.0 MB). Loaded Objects now: 4641.
-Memory consumption went from 89.9 MB to 88.8 MB.
-Total: 7.649300 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.241200 ms MarkObjects: 5.564000 ms  DeleteObjects: 1.373700 ms)
+Unloading 4138 unused Assets / (1.1 MB). Loaded Objects now: 4638.
+Memory consumption went from 85.8 MB to 84.7 MB.
+Total: 7.462400 ms (FindLiveObjects: 0.436400 ms CreateObjectMapping: 0.470700 ms MarkObjects: 5.331200 ms  DeleteObjects: 1.222900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4126 unused Assets / (1.3 MB). Loaded Objects now: 4637.
+Memory consumption went from 85.9 MB to 84.6 MB.
+Total: 8.978800 ms (FindLiveObjects: 0.548300 ms CreateObjectMapping: 0.808400 ms MarkObjects: 5.547600 ms  DeleteObjects: 2.073400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1344ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4137 unused Assets / (1.0 MB). Loaded Objects now: 4638.
+Memory consumption went from 85.8 MB to 84.7 MB.
+Total: 7.574400 ms (FindLiveObjects: 0.574100 ms CreateObjectMapping: 0.803200 ms MarkObjects: 4.795000 ms  DeleteObjects: 1.401200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 593.676445 seconds.
-  path: Assets/figma preguntas/Pantalla 1/FONDO (1).png
-  artifactKey: Guid(8cc8197d8e0f76f4cbef284022373535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1/FONDO (1).png using Guid(8cc8197d8e0f76f4cbef284022373535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75bd471426f5c45fc301dca14b4867c8') in 0.1014468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 3294.680649 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0064886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 152.453280 seconds.
-  path: Assets/figma preguntas/Pantalla 1/CIRCULO.png
-  artifactKey: Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1/CIRCULO.png using Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8586231da2fc3d9ed3e735b702ceb77b') in 0.016842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 5.014723 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3dbdae975565d4fc38cde86320c3ff1') in 0.1559368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 552.886129 seconds.
-  path: Assets/figma preguntas/Pantalla 1/FONDO (3).png
-  artifactKey: Guid(0f19991f60a39d944b133bb39076544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1/FONDO (3).png using Guid(0f19991f60a39d944b133bb39076544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd63a04e707b1377510ea47d054a58497') in 0.0122188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45b9382a612a197d275636d440de8873') in 0.0121091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.085258 seconds.
-  path: Assets/figma preguntas/Pantalla 4/COMPARTIR.png
-  artifactKey: Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/COMPARTIR.png using Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da91f9749baf08c5aa14afd4de63760c') in 0.0105345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbc3e0368ff244de0b4aeb0f2d54f959') in 0.0071342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013610 seconds.
-  path: Assets/figma preguntas/Pantalla 3/GEMAS.png
-  artifactKey: Guid(bac67fecb357b114f972c11706de2f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/GEMAS.png using Guid(bac67fecb357b114f972c11706de2f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e76424ffff281fd350a751c33d54e0') in 0.0194539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/figma preguntas/Pantalla 2/MENU.png
-  artifactKey: Guid(d50ee0b2e5783714ba511f15b39b2f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/MENU.png using Guid(d50ee0b2e5783714ba511f15b39b2f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09cd81237bc3316157bc496c9508cee8') in 0.0143324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/figma preguntas/Pantalla 2/MONEDAS.png
-  artifactKey: Guid(36ff969e66db110469a0b065df5378a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/MONEDAS.png using Guid(36ff969e66db110469a0b065df5378a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075aa9882e060582aa4976d98cf4c6e3') in 0.0149361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png
-  artifactKey: Guid(71e69c9c041e3fb47881d98f709490bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png using Guid(71e69c9c041e3fb47881d98f709490bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c5ccaa537eee4080f43874dd60e89f4') in 0.0120837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000127 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b9de32082cb3807713493554b0de413') in 0.0660125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/figma preguntas/Pantalla 2/LOGO.png
-  artifactKey: Guid(6a1da6254b7124942b3c53cbb4b39d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/LOGO.png using Guid(6a1da6254b7124942b3c53cbb4b39d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a95c15bde15c7646417c7c3b5bb6552') in 0.0147685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/figma preguntas/Pantalla 4/ICONO.png
-  artifactKey: Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/ICONO.png using Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fb76a94d3d281d080fc41990526b656') in 0.0165536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.382578 seconds.
-  path: Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png
-  artifactKey: Guid(9be45d43d68af2a4ab26900e329157ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png using Guid(9be45d43d68af2a4ab26900e329157ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5802950173a59942833bd0bc7df6f9d') in 0.0137535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025735 seconds.
-  path: Assets/figma preguntas/Pantalla 3/PUNTOS.png
-  artifactKey: Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/PUNTOS.png using Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39ab606e3d2275b7a97662ae215f9bb8') in 0.0137211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/figma preguntas/Pantalla 3/RESPUESTA C.png
-  artifactKey: Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA C.png using Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8980a30738ab6be324b6c056aebaa03') in 0.0116129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/figma preguntas/Pantalla 3/RESPUESTA D.png
-  artifactKey: Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA D.png using Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94bc9257916b96446c86521767518ca1') in 0.0103649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033106 seconds.
-  path: Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png
-  artifactKey: Guid(7a614ba4659d5b84e8c82549a685716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png using Guid(7a614ba4659d5b84e8c82549a685716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '703ad76b6e30922adf6ad599f9556f43') in 0.0124494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195862 seconds.
-  path: Assets/figma preguntas/Pantalla 1/TITULO.png
-  artifactKey: Guid(add16edd4bcaee843af432075a221be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 1/TITULO.png using Guid(add16edd4bcaee843af432075a221be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5193477c691cbb18ed27ab74792a89dc') in 0.0128927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021236 seconds.
-  path: Assets/figma preguntas/Pantalla 4/TITULO (1).png
-  artifactKey: Guid(9e7c1754b5cfd964e8bde525c63ded5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 4/TITULO (1).png using Guid(9e7c1754b5cfd964e8bde525c63ded5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bea41efe0a69e589aa940751145436f6') in 0.0099747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.076632 seconds.
-  path: Assets/figma preguntas/Pantalla 2/BOTON 3.png
-  artifactKey: Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/BOTON 3.png using Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bcecc44f9127443b12b024d3553d2a0') in 0.0097257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042660 seconds.
-  path: Assets/figma preguntas/Pantalla 2/BOTON 1.png
-  artifactKey: Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/figma preguntas/Pantalla 2/BOTON 1.png using Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e66c811c99198bbae68b6595d9cdc51b') in 0.0331786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 368.178390 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4417de024fe634a3b82ab46e713a5155') in 0.0690953 seconds
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08b1b4a5c34aa168b596e77c42610600') in 0.006395 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000081 seconds.
-  path: Assets/figma preguntas/Pantalla 4/COMPARTIR.png
-  artifactKey: Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/COMPARTIR.png using Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '190b9b52be4ed41e41ffc0f326de209e') in 0.0653195 seconds
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd60fb1d7ef1a57f7f494c2c2af27cfa') in 0.0446254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f60a700efe2c6a051eb8786682290fb') in 0.0553585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1494c9d7a8cf560da1165e244ad20d94') in 0.0058699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64031da2323e202b7cb787853a528c09') in 0.0092157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '662d9f655330d9fc8ac6f459d9b7baf2') in 0.0070077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4464f994d6a635f37e317eca0e13cee1') in 0.0088495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e053383c6292b98d656f4e9f72868ed3') in 0.0055779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12bdc021a559458f02cc621522ca4c7c') in 0.0158063 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/figma preguntas/Pantalla 4/CALIFACION.png
-  artifactKey: Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/CALIFACION.png using Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297d1d86820fa63bd4a3481641e965f2') in 0.0340103 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e2fa7555f13871f669672f899a151e3') in 0.005972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/figma preguntas/Pantalla 2/TITULO.png
-  artifactKey: Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 2/TITULO.png using Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dc7a73f0903f74f26b2587723662348') in 0.0120238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/figma preguntas/Pantalla 2/MONEDAS.png
-  artifactKey: Guid(36ff969e66db110469a0b065df5378a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 2/MONEDAS.png using Guid(36ff969e66db110469a0b065df5378a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5defd91befe8573b73a47515128d09d7') in 0.0136076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png
-  artifactKey: Guid(7a614ba4659d5b84e8c82549a685716f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png using Guid(7a614ba4659d5b84e8c82549a685716f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49a8e4e8a914f43c8be68036d9c9ebe3') in 0.0163258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/figma preguntas/Pantalla 3/ATRAS.png
-  artifactKey: Guid(6ae373e56172ec045aea84190f9f5a65) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/ATRAS.png using Guid(6ae373e56172ec045aea84190f9f5a65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d6cb5c01b88a9a32c52b2b08e63a5c5') in 0.0147874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/figma preguntas/Pantalla 3/RESPUESTA C.png
-  artifactKey: Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA C.png using Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ccb917123de9f54691d679ec8768600') in 0.0143243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png
-  artifactKey: Guid(71e69c9c041e3fb47881d98f709490bb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png using Guid(71e69c9c041e3fb47881d98f709490bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c847916e725c032a9f09766481f08ef2') in 0.0148586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/figma preguntas/Pantalla 4/PUNTUACION.png
-  artifactKey: Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/PUNTUACION.png using Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23e56e1f61e2372d2d6c22f6d4215f90') in 0.0143667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/figma preguntas/Pantalla 4/TIEMPO.png
-  artifactKey: Guid(8117296c29804524a916c15584c8e2f6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/TIEMPO.png using Guid(8117296c29804524a916c15584c8e2f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a76259b595aa624ddfb6540bb87ad74') in 0.0151473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png
-  artifactKey: Guid(9be45d43d68af2a4ab26900e329157ac) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png using Guid(9be45d43d68af2a4ab26900e329157ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecdb5c2edb2b2e9343b1e2ca032126be') in 0.0141114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/figma preguntas/Pantalla 1/FONDO (1).png
-  artifactKey: Guid(8cc8197d8e0f76f4cbef284022373535) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 1/FONDO (1).png using Guid(8cc8197d8e0f76f4cbef284022373535) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcd015b0a74f210472a375cad0ed648c') in 0.0119555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/figma preguntas/Pantalla 1/TITULO.png
-  artifactKey: Guid(add16edd4bcaee843af432075a221be7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 1/TITULO.png using Guid(add16edd4bcaee843af432075a221be7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f122e8ac519874088f96867a4c17fc2') in 0.0110189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/figma preguntas/Pantalla 3/cantidad.png
-  artifactKey: Guid(91b083d7d74009f45a8f05d1c4cfa5cf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/cantidad.png using Guid(91b083d7d74009f45a8f05d1c4cfa5cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '672a4a4f01473d1406939fff4992dae0') in 0.011027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/figma preguntas/Pantalla 1/LOGO.png
-  artifactKey: Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 1/LOGO.png using Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a9ac187faca723acc8ac53096adfd3b') in 0.0117299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/figma preguntas/Pantalla 2/BOTON 1.png
-  artifactKey: Guid(e2b83b28f477ce542b7104ca56acc362) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 2/BOTON 1.png using Guid(e2b83b28f477ce542b7104ca56acc362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca58e50079e162afb0232ef050e33687') in 0.0122603 seconds
+  Time since last request: 0.000152 seconds.
+  path: Assets/figma preguntas/Pantalla 1/button.arrow-btn.png
+  artifactKey: Guid(0ccff3827dc05584087278623205491b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 1/button.arrow-btn.png using Guid(0ccff3827dc05584087278623205491b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdc70153715e24d780414b6cf4511df2') in 0.0305709 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/figma preguntas/Pantalla 3/RESPUESTA A.png
-  artifactKey: Guid(41470f7939d728d4eb74dec4fda9cddf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA A.png using Guid(41470f7939d728d4eb74dec4fda9cddf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c801b789ec9462f41616fefc0331041') in 0.0107367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33410ac43eb1e42fc8ddde53959e89c1') in 0.0077567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/figma preguntas/Pantalla 3/GEMAS.png
-  artifactKey: Guid(bac67fecb357b114f972c11706de2f50) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/GEMAS.png using Guid(bac67fecb357b114f972c11706de2f50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77dc193eb89f7667effdb90fcdb4e8cc') in 0.0120699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4ac5973dc341838586fa8dae1c6f037') in 0.0057385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/figma preguntas/Pantalla 2/FONDO.png
-  artifactKey: Guid(0bc58af7bc06d224ab972845b31c76b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 2/FONDO.png using Guid(0bc58af7bc06d224ab972845b31c76b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e12db4fe7971fc09a22a8c2b3398f8') in 0.0128108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000100 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b08e2849559a6a0baef838319d910783') in 0.0071107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/figma preguntas/Pantalla 3/PUNTOS.png
-  artifactKey: Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/PUNTOS.png using Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b88ea96887ad8b194438c70404a2d15f') in 0.017223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caa736f62be6c63276766a09265b369e') in 0.0063066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/figma preguntas/Pantalla 3/PREGUNTA.png
-  artifactKey: Guid(9922e82a1b9af3042a74ee62115b5bda) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/PREGUNTA.png using Guid(9922e82a1b9af3042a74ee62115b5bda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6053ba40695bf0ef614cc82da69636cf') in 0.0145085 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e94c0fb2181ce04896fce89fd5fe5d1') in 0.0095762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/figma preguntas/Pantalla 3/RESPUESTA D.png
-  artifactKey: Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA D.png using Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9c9ef1d4372ff415ec8c4df232f4178') in 0.0132611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000124 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1ceef917153f764f280569ff7542420') in 0.0074593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/figma preguntas/Pantalla 2/BOTON 3.png
-  artifactKey: Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 2/BOTON 3.png using Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e97b3b739f5743025f986671a9e9efe1') in 0.0112863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000161 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa2b75e7f923303a7acecd237efb1c2c') in 0.0092378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/figma preguntas/Pantalla 4/ICONO.png
-  artifactKey: Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/figma preguntas/Pantalla 4/ICONO.png using Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ea8742763f0d93832f52a1b4ce90deb') in 0.0107257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000126 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcd62adefbcc6b1c85d62109f8863ed3') in 0.0050302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d686db39a3c6d1951ff23b5d3992fb1') in 0.0228091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4127 unused Assets / (1.2 MB). Loaded Objects now: 4641.
+Memory consumption went from 87.5 MB to 86.3 MB.
+Total: 60.246400 ms (FindLiveObjects: 0.843200 ms CreateObjectMapping: 1.654900 ms MarkObjects: 55.550500 ms  DeleteObjects: 2.195700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4127 unused Assets / (1.1 MB). Loaded Objects now: 4641.
+Memory consumption went from 87.5 MB to 86.4 MB.
+Total: 9.858000 ms (FindLiveObjects: 0.520500 ms CreateObjectMapping: 0.605400 ms MarkObjects: 6.767900 ms  DeleteObjects: 1.963100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.851 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1568ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4138 unused Assets / (1.3 MB). Loaded Objects now: 4642.
+Memory consumption went from 86.8 MB to 85.4 MB.
+Total: 7.220000 ms (FindLiveObjects: 0.492300 ms CreateObjectMapping: 0.637900 ms MarkObjects: 4.577800 ms  DeleteObjects: 1.510300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.908 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.841 seconds
+Domain Reload Profiling: 1743ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (841ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4138 unused Assets / (1.1 MB). Loaded Objects now: 4643.
+Memory consumption went from 86.8 MB to 85.7 MB.
+Total: 8.220900 ms (FindLiveObjects: 0.460300 ms CreateObjectMapping: 0.274100 ms MarkObjects: 5.355900 ms  DeleteObjects: 2.128600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1416ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4138 unused Assets / (1.4 MB). Loaded Objects now: 4644.
+Memory consumption went from 86.8 MB to 85.3 MB.
+Total: 8.122600 ms (FindLiveObjects: 0.794400 ms CreateObjectMapping: 0.839200 ms MarkObjects: 4.927900 ms  DeleteObjects: 1.559900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.784 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1505ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4138 unused Assets / (1.0 MB). Loaded Objects now: 4645.
+Memory consumption went from 86.8 MB to 85.8 MB.
+Total: 8.348500 ms (FindLiveObjects: 1.038500 ms CreateObjectMapping: 0.743500 ms MarkObjects: 5.037300 ms  DeleteObjects: 1.528100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

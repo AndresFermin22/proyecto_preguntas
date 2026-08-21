@@ -1,0 +1,737 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.75f1 (26349cd2a5c8) revision 2503836'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANDRES FERMIN" at "2026-08-10T13:17:24.7385501Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 28563 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-10T13:17:24Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.75f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59896
+-licensingIpc
+LicenseClient-ANDRES FERMIN
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
+C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18152]  Target information:
+
+Player connection [18152]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3702069102 [EditorId] 3702069102 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1JCDATF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18152] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18152] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 201.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANDRES FERMIN/EJERCICIO_PREGUNTAS/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8a742361078e42919fecd2f3e3da390b
+  Correlation Id:          04c9ff0d319331033c2763cb9dcd7557
+  External correlation Id: 7162815206159758209
+  Machine Id:              gYelaCSI6isL+YwUnDGnPx+zsCc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ANDRES FERMIN" (connect: 0.00s, validation: 0.00s, handshake: 1.66s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANDRES FERMIN-notifications" at "2026-08-10T13:17:26.4061978Z"
+[Licensing::Module] Licensing Background thread has ended after 1.67s
+[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674201656207-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.75f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.287048 seconds.
+- Loaded All Assemblies, in  0.936 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 371 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1724ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (346ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (747ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (475ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.628 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 2298ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1289ms)
+		LoadAssemblies (1157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (545ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4138 unused Assets / (1.1 MB). Loaded Objects now: 4619.
+Memory consumption went from 84.1 MB to 83.0 MB.
+Total: 6.907200 ms (FindLiveObjects: 0.622900 ms CreateObjectMapping: 0.501200 ms MarkObjects: 4.601700 ms  DeleteObjects: 1.178900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3438.093737 seconds.
+  path: Assets/figma preguntas/Pantalla 1
+  artifactKey: Guid(08ce4d0d0bf3b53429fac4e1a070f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1 using Guid(08ce4d0d0bf3b53429fac4e1a070f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '423a77752c698a19f080cb83abbee4cc') in 0.0054631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/figma preguntas/Pantalla 1/CIRCULO.png
+  artifactKey: Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1/CIRCULO.png using Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e30fc0571eb9254e66a16094a54a90a') in 0.0593514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.660215 seconds.
+  path: Assets/figma preguntas/Pantalla 1/LOGO.png
+  artifactKey: Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1/LOGO.png using Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737a1a5f40641dff155fc81f201ce5d3') in 0.065345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.826402 seconds.
+  path: Assets/figma preguntas/Pantalla 2/BOTON 1.png
+  artifactKey: Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/BOTON 1.png using Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e2750f648c2f9cce62535b322ce9178') in 0.0064813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.441695 seconds.
+  path: Assets/figma preguntas/Pantalla 2/TITULO.png
+  artifactKey: Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/TITULO.png using Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9df250d98bf68e81fcd6a4a3b468404') in 0.0076506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.623081 seconds.
+  path: Assets/figma preguntas/Pantalla 2/TITULO.png
+  artifactKey: Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/TITULO.png using Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcc03d5494557e70b8dfb2ce41139de2') in 0.0156232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041205 seconds.
+  path: Assets/figma preguntas/Pantalla 3/ATRAS.png
+  artifactKey: Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/ATRAS.png using Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d5ba2e15bde433f191fb352e42638e') in 0.0062864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.749818 seconds.
+  path: Assets/figma preguntas/Pantalla 3/ATRAS.png
+  artifactKey: Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/ATRAS.png using Guid(6ae373e56172ec045aea84190f9f5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a0edc92480da3bbfb5ed5f37e829ee3') in 0.0182158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.375312 seconds.
+  path: Assets/figma preguntas/Pantalla 4
+  artifactKey: Guid(e7a58477d712a60428c89de72d24699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4 using Guid(e7a58477d712a60428c89de72d24699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a589c3864221304e8038a5854d824a') in 0.0010754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.536497 seconds.
+  path: Assets/figma preguntas/Pantalla 4/CALIFACION.png
+  artifactKey: Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/CALIFACION.png using Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3633deb7a4d49bc493dfe3b51bd1a653') in 0.0066353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786658 seconds.
+  path: Assets/figma preguntas/Pantalla 4/PUNTUACION.png
+  artifactKey: Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/PUNTUACION.png using Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c57334e85b17c97a09e6cbf08650f61') in 0.0067668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.762054 seconds.
+  path: Assets/figma preguntas/Pantalla 4/PUNTUACION.png
+  artifactKey: Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/PUNTUACION.png using Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56068d74e1919d470211d18e5e3df931') in 0.0143336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.983 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1767ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4137 unused Assets / (1.0 MB). Loaded Objects now: 4641.
+Memory consumption went from 89.9 MB to 88.8 MB.
+Total: 7.649300 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.241200 ms MarkObjects: 5.564000 ms  DeleteObjects: 1.373700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 593.676445 seconds.
+  path: Assets/figma preguntas/Pantalla 1/FONDO (1).png
+  artifactKey: Guid(8cc8197d8e0f76f4cbef284022373535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1/FONDO (1).png using Guid(8cc8197d8e0f76f4cbef284022373535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75bd471426f5c45fc301dca14b4867c8') in 0.1014468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.453280 seconds.
+  path: Assets/figma preguntas/Pantalla 1/CIRCULO.png
+  artifactKey: Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1/CIRCULO.png using Guid(4500b5a855ae47649be041e440b5e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8586231da2fc3d9ed3e735b702ceb77b') in 0.016842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 552.886129 seconds.
+  path: Assets/figma preguntas/Pantalla 1/FONDO (3).png
+  artifactKey: Guid(0f19991f60a39d944b133bb39076544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1/FONDO (3).png using Guid(0f19991f60a39d944b133bb39076544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd63a04e707b1377510ea47d054a58497') in 0.0122188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.085258 seconds.
+  path: Assets/figma preguntas/Pantalla 4/COMPARTIR.png
+  artifactKey: Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/COMPARTIR.png using Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da91f9749baf08c5aa14afd4de63760c') in 0.0105345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013610 seconds.
+  path: Assets/figma preguntas/Pantalla 3/GEMAS.png
+  artifactKey: Guid(bac67fecb357b114f972c11706de2f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/GEMAS.png using Guid(bac67fecb357b114f972c11706de2f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e76424ffff281fd350a751c33d54e0') in 0.0194539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/figma preguntas/Pantalla 2/MENU.png
+  artifactKey: Guid(d50ee0b2e5783714ba511f15b39b2f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/MENU.png using Guid(d50ee0b2e5783714ba511f15b39b2f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09cd81237bc3316157bc496c9508cee8') in 0.0143324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/figma preguntas/Pantalla 2/MONEDAS.png
+  artifactKey: Guid(36ff969e66db110469a0b065df5378a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/MONEDAS.png using Guid(36ff969e66db110469a0b065df5378a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075aa9882e060582aa4976d98cf4c6e3') in 0.0149361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png
+  artifactKey: Guid(71e69c9c041e3fb47881d98f709490bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png using Guid(71e69c9c041e3fb47881d98f709490bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c5ccaa537eee4080f43874dd60e89f4') in 0.0120837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/figma preguntas/Pantalla 2/LOGO.png
+  artifactKey: Guid(6a1da6254b7124942b3c53cbb4b39d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/LOGO.png using Guid(6a1da6254b7124942b3c53cbb4b39d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a95c15bde15c7646417c7c3b5bb6552') in 0.0147685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/figma preguntas/Pantalla 4/ICONO.png
+  artifactKey: Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/ICONO.png using Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fb76a94d3d281d080fc41990526b656') in 0.0165536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382578 seconds.
+  path: Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png
+  artifactKey: Guid(9be45d43d68af2a4ab26900e329157ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png using Guid(9be45d43d68af2a4ab26900e329157ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5802950173a59942833bd0bc7df6f9d') in 0.0137535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025735 seconds.
+  path: Assets/figma preguntas/Pantalla 3/PUNTOS.png
+  artifactKey: Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/PUNTOS.png using Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39ab606e3d2275b7a97662ae215f9bb8') in 0.0137211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/figma preguntas/Pantalla 3/RESPUESTA C.png
+  artifactKey: Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA C.png using Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8980a30738ab6be324b6c056aebaa03') in 0.0116129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/figma preguntas/Pantalla 3/RESPUESTA D.png
+  artifactKey: Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA D.png using Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94bc9257916b96446c86521767518ca1') in 0.0103649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033106 seconds.
+  path: Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png
+  artifactKey: Guid(7a614ba4659d5b84e8c82549a685716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png using Guid(7a614ba4659d5b84e8c82549a685716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '703ad76b6e30922adf6ad599f9556f43') in 0.0124494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195862 seconds.
+  path: Assets/figma preguntas/Pantalla 1/TITULO.png
+  artifactKey: Guid(add16edd4bcaee843af432075a221be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 1/TITULO.png using Guid(add16edd4bcaee843af432075a221be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5193477c691cbb18ed27ab74792a89dc') in 0.0128927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021236 seconds.
+  path: Assets/figma preguntas/Pantalla 4/TITULO (1).png
+  artifactKey: Guid(9e7c1754b5cfd964e8bde525c63ded5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 4/TITULO (1).png using Guid(9e7c1754b5cfd964e8bde525c63ded5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bea41efe0a69e589aa940751145436f6') in 0.0099747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.076632 seconds.
+  path: Assets/figma preguntas/Pantalla 2/BOTON 3.png
+  artifactKey: Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/BOTON 3.png using Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bcecc44f9127443b12b024d3553d2a0') in 0.0097257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042660 seconds.
+  path: Assets/figma preguntas/Pantalla 2/BOTON 1.png
+  artifactKey: Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/figma preguntas/Pantalla 2/BOTON 1.png using Guid(e2b83b28f477ce542b7104ca56acc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e66c811c99198bbae68b6595d9cdc51b') in 0.0331786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.178390 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4417de024fe634a3b82ab46e713a5155') in 0.0690953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/figma preguntas/Pantalla 4/COMPARTIR.png
+  artifactKey: Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/COMPARTIR.png using Guid(a24be2d8b07b7f04ab995ef075969a91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '190b9b52be4ed41e41ffc0f326de209e') in 0.0653195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/figma preguntas/Pantalla 4/CALIFACION.png
+  artifactKey: Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/CALIFACION.png using Guid(94db0bd48aac9b041bfc216ba5888e52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297d1d86820fa63bd4a3481641e965f2') in 0.0340103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/figma preguntas/Pantalla 2/TITULO.png
+  artifactKey: Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 2/TITULO.png using Guid(bfbd0251d61838843b2b0e93d87f2ccf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dc7a73f0903f74f26b2587723662348') in 0.0120238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/figma preguntas/Pantalla 2/MONEDAS.png
+  artifactKey: Guid(36ff969e66db110469a0b065df5378a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 2/MONEDAS.png using Guid(36ff969e66db110469a0b065df5378a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5defd91befe8573b73a47515128d09d7') in 0.0136076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png
+  artifactKey: Guid(7a614ba4659d5b84e8c82549a685716f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/TEMPORIZADOR.png using Guid(7a614ba4659d5b84e8c82549a685716f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49a8e4e8a914f43c8be68036d9c9ebe3') in 0.0163258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/figma preguntas/Pantalla 3/ATRAS.png
+  artifactKey: Guid(6ae373e56172ec045aea84190f9f5a65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/ATRAS.png using Guid(6ae373e56172ec045aea84190f9f5a65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d6cb5c01b88a9a32c52b2b08e63a5c5') in 0.0147874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/figma preguntas/Pantalla 3/RESPUESTA C.png
+  artifactKey: Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA C.png using Guid(e5c8c1f09a6f26144a7db716a41d0e88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ccb917123de9f54691d679ec8768600') in 0.0143243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png
+  artifactKey: Guid(71e69c9c041e3fb47881d98f709490bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/JUGAR OTRA VEZ.png using Guid(71e69c9c041e3fb47881d98f709490bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c847916e725c032a9f09766481f08ef2') in 0.0148586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/figma preguntas/Pantalla 4/PUNTUACION.png
+  artifactKey: Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/PUNTUACION.png using Guid(74e76211fa103f54c87ca5c1fc8b515b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23e56e1f61e2372d2d6c22f6d4215f90') in 0.0143667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/figma preguntas/Pantalla 4/TIEMPO.png
+  artifactKey: Guid(8117296c29804524a916c15584c8e2f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/TIEMPO.png using Guid(8117296c29804524a916c15584c8e2f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a76259b595aa624ddfb6540bb87ad74') in 0.0151473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png
+  artifactKey: Guid(9be45d43d68af2a4ab26900e329157ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/PREGUNT AS CORRECTAS.png using Guid(9be45d43d68af2a4ab26900e329157ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecdb5c2edb2b2e9343b1e2ca032126be') in 0.0141114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/figma preguntas/Pantalla 1/FONDO (1).png
+  artifactKey: Guid(8cc8197d8e0f76f4cbef284022373535) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 1/FONDO (1).png using Guid(8cc8197d8e0f76f4cbef284022373535) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcd015b0a74f210472a375cad0ed648c') in 0.0119555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/figma preguntas/Pantalla 1/TITULO.png
+  artifactKey: Guid(add16edd4bcaee843af432075a221be7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 1/TITULO.png using Guid(add16edd4bcaee843af432075a221be7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f122e8ac519874088f96867a4c17fc2') in 0.0110189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/figma preguntas/Pantalla 3/cantidad.png
+  artifactKey: Guid(91b083d7d74009f45a8f05d1c4cfa5cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/cantidad.png using Guid(91b083d7d74009f45a8f05d1c4cfa5cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '672a4a4f01473d1406939fff4992dae0') in 0.011027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/figma preguntas/Pantalla 1/LOGO.png
+  artifactKey: Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 1/LOGO.png using Guid(979fb2978fe8bcf49aa2cddf3d66a40d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a9ac187faca723acc8ac53096adfd3b') in 0.0117299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/figma preguntas/Pantalla 2/BOTON 1.png
+  artifactKey: Guid(e2b83b28f477ce542b7104ca56acc362) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 2/BOTON 1.png using Guid(e2b83b28f477ce542b7104ca56acc362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca58e50079e162afb0232ef050e33687') in 0.0122603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/figma preguntas/Pantalla 3/RESPUESTA A.png
+  artifactKey: Guid(41470f7939d728d4eb74dec4fda9cddf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA A.png using Guid(41470f7939d728d4eb74dec4fda9cddf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c801b789ec9462f41616fefc0331041') in 0.0107367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/figma preguntas/Pantalla 3/GEMAS.png
+  artifactKey: Guid(bac67fecb357b114f972c11706de2f50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/GEMAS.png using Guid(bac67fecb357b114f972c11706de2f50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77dc193eb89f7667effdb90fcdb4e8cc') in 0.0120699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/figma preguntas/Pantalla 2/FONDO.png
+  artifactKey: Guid(0bc58af7bc06d224ab972845b31c76b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 2/FONDO.png using Guid(0bc58af7bc06d224ab972845b31c76b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e12db4fe7971fc09a22a8c2b3398f8') in 0.0128108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/figma preguntas/Pantalla 3/PUNTOS.png
+  artifactKey: Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/PUNTOS.png using Guid(990dff4cc0abd684b8b8e0d77487259d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b88ea96887ad8b194438c70404a2d15f') in 0.017223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/figma preguntas/Pantalla 3/PREGUNTA.png
+  artifactKey: Guid(9922e82a1b9af3042a74ee62115b5bda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/PREGUNTA.png using Guid(9922e82a1b9af3042a74ee62115b5bda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6053ba40695bf0ef614cc82da69636cf') in 0.0145085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/figma preguntas/Pantalla 3/RESPUESTA D.png
+  artifactKey: Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 3/RESPUESTA D.png using Guid(80713b7a0d9ade84893db94dd48d5cc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9c9ef1d4372ff415ec8c4df232f4178') in 0.0132611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/figma preguntas/Pantalla 2/BOTON 3.png
+  artifactKey: Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 2/BOTON 3.png using Guid(fbabafe92e22ea946baab2edf7f8899a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e97b3b739f5743025f986671a9e9efe1') in 0.0112863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/figma preguntas/Pantalla 4/ICONO.png
+  artifactKey: Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/figma preguntas/Pantalla 4/ICONO.png using Guid(1cd787a506a3fe047b48446d8cf2937a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ea8742763f0d93832f52a1b4ce90deb') in 0.0107257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
