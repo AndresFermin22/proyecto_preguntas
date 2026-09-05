@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Adso2026/EJERCICIO_PREGUNTAS/Packages/manifest.json
+    m_FilePath: D:/adso_3234206/proyecto_preguntas/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639219647411679566
-    m_Hash: 2428989726
+      ticks: 639241644827653549
+    m_Hash: 982259400
   m_LockFileStatus:
-    m_FilePath: C:/Adso2026/EJERCICIO_PREGUNTAS/Packages/packages-lock.json
+    m_FilePath: D:/adso_3234206/proyecto_preguntas/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639219647411731359
-    m_Hash: 3069486119
+      ticks: 639241644995169271
+    m_Hash: 2812794361
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Adso2026/EJERCICIO_PREGUNTAS/Packages
-m_EditorVersion: 6000.0.75f1 (26349cd2a5c8)
+m_ProjectPath: D:/adso_3234206/proyecto_preguntas/Packages
+m_EditorVersion: 6000.0.82f1 (2fb0dae735e1)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.12.4
+- packageId: com.unity.collab-proxy@2.13.6
   testable: 0
   isDirectDependency: 1
-  version: 2.12.4
+  version: 2.13.6
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -137,12 +137,8 @@ m_ResolvedPackages:
     - 2.13.5
     - 2.13.6
     compatible:
-    - 2.12.4
-    - 2.13.3
-    - 2.13.4
-    - 2.13.5
     - 2.13.6
-    recommended: 2.12.4
+    recommended: 2.13.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -177,16 +173,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639093537468220000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.12/manual/index.html
+  datePublishedTicks: 639216032992590000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.13/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 4d24fbc0581e7fec760c9c8eef7517e1e1195f9e
+    revision: 97d7bcda7c50ada1e2c23816e56b8c315dcd6eae
     path: 
   unityLifecycle:
-    version: 2.12.4
+    version: 2.13.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -196,38 +192,47 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added a new Branch Explorer to visualize
-    and navigate branches.\n- Added \"Add to Source Control\" and \"Undo Changes\"
-    actions for folders from the Project browser and Inspector.\n- Added support
-    in the merge view to partially apply a shelve.\n- Added persistence for all splitter
-    positions across window reloads and sessions.\n- Added the F2 keyboard shortcut
-    to rename branches and labels.\n\n### Changed\n\n- Improved text field focus
-    behavior across dialogs for more consistent keyboard workflows.\n- Improved the
-    empty state in the Pending Changes view.\n- Delayed workspace creation when opening
-    projects from the Unity Hub.\n- Updated new project initialization to perform
-    a full initial checkin.\n- Prevented connecting a project to a different organization
-    by mistake.\n- Added changeset and label icons to the status bar.\n- Updated
-    the macOS hide shortcut to Cmd+Shift+H.\n\n### Fixed\n\n- Fixed the labels context
-    menu not opening when the table is empty.\n- Fixed the branches context menu
-    not opening when the table is empty.\n- Fixed the status bar turning gray after
-    exiting Play Mode.\n- Fixed issues in the changeset-by-changeset diff from the
-    branches view.\n- Fixed blurry icons in the Explore Repositories window.\n- Fixed
-    the New Branch button failing when the current selection is a changeset or label.\n-
-    Fixed validation messages alignment in the Unity Version Control window.\n- Fixed
-    the Checkin dialog not auto-focusing the comment field.\n- Fixed button capitalization
-    in the Unity Version Control window to match Unity standards.\n- Fixed and localized
-    the Checkin dialog progress label.\n- Fixed a NullReferenceException when opening
-    history from a branch diff.\n- Fixed a potential NullReferenceException in the
-    changeset-by-changeset diff panel.\n- Fixed a layout exception when right-clicking
-    Pending Changes in the side bar.\n- Fixed the Unity Version Control window during
-    Create Workspace to refresh without requiring mouse movement."}'
+  upmReserved: '{"changelog":"### Added\n\n- Added a built-in diff viewer for text,
+    images, and serialized Unity assets, available from Pending Changes, History,
+    changesets, and branches.\n- Added Unity AI Assistant integration to manage version
+    control, review changes, and query repository history using natural language.\n-
+    Added support for comparing two selected revisions from the History view.\n-
+    Added a details panel showing move origins/destinations and deleted item information.\n-
+    Added a toggle in the Changesets tab to show or hide changesets from hidden branches.\n\n###
+    Changed\n\n- Raised the minimum supported Editor to Unity 6000.0 (removed support
+    for Unity 2021.3 and 2022.3).\n- Moved the settings button in the Branch Explorer
+    to the bottom of the panel.\n- Visually separate the edit and remove buttons
+    in the attribute panel to avoid unwanted clicks.\n- Improved how version control
+    operations handle unsaved scene changes while in Play Mode.\n\n### Fixed\n\n-
+    Fixed the \"Choose Repository\" dialog title capitalization. (UUM-143766)\n-
+    Fixed Create Workspace not refreshing the Unity Version Control and Branch Explorer
+    windows. (UUM-142548)\n- Fixed buttons overlapping the tab divider in the Branch
+    Explorer options when resizing tabs. (UUM-142492)\n- Fixed the blank Default
+    and Result encoding dropdowns in the Unity Version Control settings. (UUM-142544)\n-
+    Fixed settings not being applied after you change them.\n- Fixed meta files of
+    parent folders not being included in Add operations.\n- Fixed an \"item with
+    the same key has already been added\" error.\n- Fixed an inconsistent object
+    error when reloading the Settings panel.\n- Fixed the attributes panel appearing
+    for a checkout changeset.\n- Fixed branch diffs being outdated when opened from
+    the branches view.\n- Fixed an error shown when using Diff with previous revision
+    on an item that has no previous revision.\n- Fixed the Differences window staying
+    open after the plugin was paused in the settings.\n- Fixed the Branch Explorer
+    not updating the Inspector diffs when the window gains focus.\n- Fixed branch
+    diffs being recalculated and losing the current selection when refocusing or
+    resizing the Unity Version Control window.\n- Fixed the Unity Version Control
+    window not opening after reinstalling the package.\n- Fixed the sign-in windows
+    refreshing only when the mouse moved.\n- Fixed being unable to set up Unity Version
+    Control from Project Settings > Version Control.\n- Fixed checked-out files being
+    lost when exiting the Editor.\n- Fixed auto-checkout not reporting an error when
+    it failed because of a lock.\n- Fixed domain-reload exception handling on Unity
+    6000.5 and newer.\n- Fixed uncontrolled dialogs being shown during batchmode."}'
   assetStore:
     productId: 
-  fingerprint: 0b1559bcd34e3fee21f770e54e68e58e80eae214
+  fingerprint: 4628d2ba6ea45aaa16a8b78239d0f6f9c2176982
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.12.4
-    minimumUnityVersion: 2021.3.0f1
+    minimumPackageVersion: 2.13.6
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
@@ -239,7 +244,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.device-simulator.devices@2af643ceec84
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.device-simulator.devices@2af643ceec84
   assetPath: Packages/com.unity.device-simulator.devices
   name: com.unity.device-simulator.devices
   displayName: Device Simulator Devices
@@ -322,7 +327,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -373,7 +378,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.1.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.3.4
+    version: 1.4.0
   - name: com.unity.testtools.codecoverage
     version: 1.3.0
   - name: com.unity.settings-manager
@@ -432,7 +437,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.19.0
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -604,7 +609,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -697,7 +702,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.12
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.timeline@8cd8509afae5
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.timeline@8cd8509afae5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -888,7 +893,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.ugui@7537063fea2b
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.ugui@8bb446d869cd
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -967,7 +972,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 7537063fea2bec8a83d0c1d3994df25924012c00
+  fingerprint: 8bb446d869cdcc32361684d9e040852e05fb1a40
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -983,7 +988,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.11
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.visualscripting@8bed5ad90189
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.visualscripting@8bed5ad90189
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1113,7 +1118,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1189,7 +1194,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1265,7 +1270,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1340,7 +1345,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1416,7 +1421,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1492,7 +1497,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1568,7 +1573,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1648,7 +1653,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.director
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1732,7 +1737,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1808,7 +1813,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1884,7 +1889,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1960,7 +1965,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2036,7 +2041,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2112,7 +2117,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2188,7 +2193,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2268,7 +2273,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2344,7 +2349,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2428,7 +2433,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2507,7 +2512,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2583,7 +2588,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2675,7 +2680,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2751,7 +2756,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2834,7 +2839,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2910,7 +2915,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2994,7 +2999,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3078,7 +3083,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3162,7 +3167,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3262,7 +3267,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3342,7 +3347,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.video
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3430,7 +3435,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3520,7 +3525,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3596,7 +3601,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3684,7 +3689,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3764,7 +3769,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3840,7 +3845,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.27
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3960,7 +3965,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.39
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4093,7 +4098,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4180,12 +4185,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.performance.profile-analyzer@1.3.4
+- packageId: com.unity.performance.profile-analyzer@1.4.0
   testable: 0
   isDirectDependency: 0
-  version: 1.3.4
+  version: 1.4.0
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.performance.profile-analyzer@418130329099
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.performance.profile-analyzer@2bb26871883c
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4226,9 +4231,8 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.4.0
     compatible:
-    - 1.3.4
     - 1.4.0
-    recommended: 1.3.4
+    recommended: 1.4.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4248,16 +4252,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639107212394660000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.3/manual/index.html
+  datePublishedTicks: 639162617195790000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 2b7a0e832ced04e744605b8b938cc55b16ad84f8
+    revision: 63d3e56aef5172cb0785708588d5224d3d589ddd
     path: 
   unityLifecycle:
-    version: 1.3.4
+    version: 1.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4267,15 +4271,20 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fix for UUM-138420 - Frame time values
-    differ between Profiler and Profile Analyzer when comparing the same marker on
-    the same frame."}'
+  upmReserved: '{"changelog":"### Added\n* Added GC allocation analysis: per-marker
+    and per-frame GC allocation byte statistics, new Frame GC Allocation Summary
+    and Marker GC Allocation Summary panels, a **GC Allocations** marker columns
+    preset, and additional CSV export columns. Bumps the .pdata file format to Version
+    9.\n\n### Changed\n* Migrated editor analytics to the `IAnalytic` API on 2023.2
+    and newer, while retaining the legacy API on earlier editors. Events and reported
+    data are unchanged.\n\n### Fixed\n* Fix for UUM-139769 - The \"Depth Slice\"
+    title is clipped to \"D...\" when the Depth Slice dropdown is opened."}'
   assetStore:
     productId: 
-  fingerprint: 41813032909958a6281861a5c3afd259645dbf78
+  fingerprint: 2bb26871883cb458a0c6e6b4ca416e96786f8836
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.3.4
+    minimumPackageVersion: 1.4.0
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -4288,7 +4297,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.test-framework@082c24152fd4
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.test-framework@082c24152fd4
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4377,7 +4386,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.0
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4529,7 +4538,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4617,7 +4626,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Adso2026\EJERCICIO_PREGUNTAS\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: D:\adso_3234206\proyecto_preguntas\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4691,4 +4700,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 7a4bb7ebcf96517eb25a1485f8a67ae16428f3da
+m_BuiltInPackagesHash: 766b0116a50be7d8b72407a52b632735ac8fa0cd
