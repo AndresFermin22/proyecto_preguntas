@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\GestorPuntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\temporizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\temporizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\BotonRespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\BotonRespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\AnimacionCarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\AnimacionCarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\animacionCargar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\animacionCargar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\BotonRespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\BotonRespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,12 +33,21 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "temporizador.cs",
+              "DocumentMoniker": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\temporizador.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\temporizador.cs",
+              "ToolTip": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\temporizador.cs",
+              "RelativeToolTip": "Assets\\Script\\temporizador.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T00:03:37.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AnimacionCarga.cs",
               "DocumentMoniker": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\AnimacionCarga.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AnimacionCarga.cs",
@@ -42,12 +55,11 @@
               "RelativeToolTip": "Assets\\Script\\AnimacionCarga.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T01:03:10.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T01:03:10.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "animacionCargar.cs",
               "DocumentMoniker": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\animacionCargar.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\animacionCargar.cs",
@@ -58,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BotonRespuesta.cs",
               "DocumentMoniker": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\BotonRespuesta.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BotonRespuesta.cs",
               "ToolTip": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\BotonRespuesta.cs",
               "RelativeToolTip": "Assets\\Script\\BotonRespuesta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T00:47:38.884Z"
             },
@@ -76,10 +88,14 @@
               "RelativeDocumentMoniker": "Assets\\Script\\GestorPuntaje.cs",
               "ToolTip": "D:\\adso_3234206\\proyecto_preguntas\\Assets\\Script\\GestorPuntaje.cs",
               "RelativeToolTip": "Assets\\Script\\GestorPuntaje.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T00:39:10.19Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

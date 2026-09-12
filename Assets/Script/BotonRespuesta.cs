@@ -14,7 +14,7 @@ public class BotonRespuesta : MonoBehaviour
 
     [Header("Referencias")]
     public Temporizador temporizador;
-    public GestorPuntaje gestorPuntaje; // <--- NUEVA REFERENCIA AL PUNTAJE
+    public GestorPuntaje gestorPuntaje;
 
     private Image fondoBoton;
 
@@ -25,16 +25,17 @@ public class BotonRespuesta : MonoBehaviour
 
     public void ComprobarRespuesta()
     {
-        if (temporizador != null)
+        // Detenemos el reloj y obtenemos los segundos exactos consumidos
+        if (temporizador != null && gestorPuntaje != null)
         {
-            temporizador.DetenerTemporizador();
+            float tiempoGastado = temporizador.DetenerYObtenerTiempoUsado();
+            gestorPuntaje.RegistrarTiempoConsumido(tiempoGastado);
         }
 
         if (esRespuestaCorrecta)
         {
             fondoBoton.color = new Color(0.1f, 0.6f, 0.2f); // Verde
 
-            // Sumamos los 1000 puntos
             if (gestorPuntaje != null)
             {
                 gestorPuntaje.SumarPuntos(1000);
@@ -45,13 +46,6 @@ public class BotonRespuesta : MonoBehaviour
         else
         {
             fondoBoton.color = new Color(0.8f, 0.2f, 0.2f); // Rojo
-
-            // Si quieres sumar 0 puntos, puedes dejarlo así, o simplemente no llamar a la función
-            if (gestorPuntaje != null)
-            {
-                gestorPuntaje.SumarPuntos(0);
-            }
-
             StartCoroutine(CambiarPantallaConRetraso(pantallaIncorrecta));
         }
     }

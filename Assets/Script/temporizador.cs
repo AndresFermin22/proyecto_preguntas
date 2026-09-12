@@ -3,18 +3,21 @@ using TMPro;
 
 public class Temporizador : MonoBehaviour
 {
-    public float tiempoRestante = 10f; 
-    public TMP_Text textoTemporizador; 
+    public float tiempoInicial = 10f;
+    public float tiempoRestante = 10f;
+    public TMP_Text textoTemporizador;
     private bool cronometroActivo = false;
 
     [Header("Navegación si se acaba el tiempo")]
-    public GameObject pantallaActual;  // Pantalla 3
-    public GameObject pantallaDerrota; // Pantalla 1
+    public GameObject pantallaActual;
+    public GameObject pantallaDerrota;
+
+    public GestorPuntaje gestorPuntaje;
 
     void OnEnable()
     {
-        tiempoRestante = 10f;
-        cronometroActivo = true; 
+        tiempoRestante = tiempoInicial;
+        cronometroActivo = true;
     }
 
     void Update()
@@ -23,7 +26,7 @@ public class Temporizador : MonoBehaviour
         {
             if (tiempoRestante > 0)
             {
-                tiempoRestante -= Time.deltaTime; 
+                tiempoRestante -= Time.deltaTime;
                 ActualizarTexto(tiempoRestante);
             }
             else
@@ -31,7 +34,12 @@ public class Temporizador : MonoBehaviour
                 tiempoRestante = 0;
                 cronometroActivo = false;
                 ActualizarTexto(tiempoRestante);
-                
+
+                if (gestorPuntaje != null)
+                {
+                    gestorPuntaje.RegistrarTiempoConsumido(tiempoInicial);
+                }
+
                 pantallaActual.SetActive(false);
                 pantallaDerrota.SetActive(true);
             }
@@ -44,8 +52,10 @@ public class Temporizador : MonoBehaviour
         textoTemporizador.text = segundos.ToString();
     }
 
-    public void DetenerTemporizador()
+    public float DetenerYObtenerTiempoUsado()
     {
         cronometroActivo = false;
+        float tiempoUsado = tiempoInicial - tiempoRestante;
+        return tiempoUsado;
     }
 }

@@ -1,25 +1,43 @@
 using UnityEngine;
-using TMPro; // Necesario para modificar tu texto de TextMeshPro
+using TMPro;
 
 public class GestorPuntaje : MonoBehaviour
 {
     public int puntajeTotal = 0;
-    public TMP_Text textoPuntajeFinal; // El texto que está en la Pantalla 4
+    public float tiempoTotalTranscurrido = 0f;
 
-    // Esta función suma los puntos y actualiza la pantalla
+    [Header("Referencias UI Pantalla 4")]
+    public TMP_Text textoPuntajeFinal;
+    public TMP_Text textoTiempoTotal;
+
     public void SumarPuntos(int cantidad)
     {
         puntajeTotal += cantidad;
-        ActualizarUI();
+        ActualizarUIPuntaje();
     }
 
-    void ActualizarUI()
+    public void RegistrarTiempoConsumido(float tiempoConsumido)
+    {
+        tiempoTotalTranscurrido += tiempoConsumido;
+        ActualizarUITiempo();
+    }
+
+    void ActualizarUIPuntaje()
     {
         if (textoPuntajeFinal != null)
         {
-            // Cambia el texto para que diga el puntaje. 
-            // Puedes ajustarlo para que solo diga el número o incluya texto.
             textoPuntajeFinal.text = puntajeTotal.ToString();
+        }
+    }
+
+    void ActualizarUITiempo()
+    {
+        if (textoTiempoTotal != null)
+        {
+            int minutos = Mathf.FloorToInt(tiempoTotalTranscurrido / 60);
+            int segundos = Mathf.FloorToInt(tiempoTotalTranscurrido % 60);
+
+            textoTiempoTotal.text = string.Format("{0:00}:{1:00}", minutos, segundos);
         }
     }
 }
